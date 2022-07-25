@@ -13,7 +13,7 @@ entregas prof. Simões
 
 [ULA que soma](https://github.com/luisvlopes/sistemas_computacionais/blob/main/ULA%20que%20soma.jpg)
 
-[ULA que subtrai]([url](https://github.com/luisvlopes/sistemas_computacionais/blob/main/ULA%20subtrai.jpg))
+[ULA que subtrai](https://github.com/luisvlopes/sistemas_computacionais/blob/main/ULA%20subtrai.jpg)
 
 [multiplier - python](https://github.com/luisvlopes/sistemas_computacionais/blob/main/multiplier%20-%20python)
 
