@@ -31,4 +31,4 @@ if (n < 0 and diviser > 0):
           n += diviser
           x -= 1
 
-print("result: {x}  rest: {dividendo}")
+print("result: {x}  rest: {n}")
