@@ -1,21 +1,40 @@
-# sistemas_computacionais
-entregas prof. Simões
+# Corrida de Tartarugas - Multiplayer
+## Trabalho Final, implementar um jogo que possa ser executado no Processador ICMC
+- A implementação do grupo, se tratou de um jogo multiplayer, baseado em quem alcança o mar primeiramente.
 
-[Porta XOR de 3 entradas](
-https://github.com/luisvlopes/sistemas_computacionais/blob/main/porta%20xor%203%20entradas.png)
+## Vídeo de como funciona o jogo e seu algoritmo 
+- [Vídeo](https://github.com/Rafaelsoz/Introducao_Sistemas_Computacionais/blob/main/game_corrida_tartarugas/video_.mp4)
 
-[Simple Simulator](https://github.com/luisvlopes/sistemas_computacionais/blob/72739a4700852ad0b8cabb5959d111da2b59bc65/Simple%20Simulator)
+# Como Jogar
+  Para a execução do jogo se faz necessário em uma FPGA ou por meio de um Simulador do Processador.
+  
+  O professor Eduardo do Valle Simões disponibilizou inúmeras versões do simulador desse processador em seu repositório. Nesse projeto usaremos a versão de navegador, devido a facilidade.
+ 
+ ## Links úteis para mais informações do Simulador e como efetuar sua instalação
+ - [Simulador](https://github.com/simoesusp/Processador-ICMC)
+ - [Manual Simulador](https://github.com/simoesusp/Processador-ICMC/tree/master/Manual)
+ - [Compilador](https://github.com/simoesusp/Processador-ICMC/tree/master/compiler)
+ 
+# Como executar o jogo
+  Para dar início ao jogo, será necessário primeiro realizar downloads dos arquivos
+  - [game.mif](https://github.com/Rafaelsoz/Introdu-o_Sistemas_Computacionais/blob/main/game_corrida_tartarugas/game.mif)
+  - [charmap](https://github.com/Rafaelsoz/Introdu-o_Sistemas_Computacionais/blob/main/game_corrida_tartarugas/charmap.mif)
+ 
+  Como dito antes, vamos ultilizar a versão feita no [navegador](https://github.com/simoesusp/Processador-ICMC/tree/master/Install_Packages)
+  - Na primeira opção é necessário colocar o arquivo game.mif
+  - Na segunda se faz preciso usar o charmap
 
-[ULA que soma](https://github.com/luisvlopes/sistemas_computacionais/blob/main/ULA%20que%20soma.jpg)
+  ![](https://github.com/Rafaelsoz/Introdu-o_Sistemas_Computacionais/blob/main/game_corrida_tartarugas/image.jpeg)
 
-[ULA que subtrai](https://github.com/luisvlopes/sistemas_computacionais/blob/4a76da0d6697b3dd6be04eb4bf68842b39964a07/ULA%20subtrai.jpg)
 
-[divisor - python](https://github.com/luisvlopes/sistemas_computacionais/blob/main/divisor%20-%20python)
-
-[multiplier - python](https://github.com/luisvlopes/sistemas_computacionais/blob/main/multiplier%20-%20python)
-
-[MUX smartphone 64 bits](https://github.com/luisvlopes/sistemas_computacionais/blob/main/MUX%20smartphone%2064%20bits.jpg)
-
-[Máquina de estados](https://github.com/luisvlopes/sistemas_computacionais/blob/main/maquina%20de%20estados)
-
-[Tabela verdade da máquina](https://github.com/luisvlopes/sistemas_computacionais/blob/main/Tabela%20verdade%20-%20m%C3%A1quina%20de%20estados.jpg)
+  ## Agora basta clicar em "Automatico" para que de start no simulador
+  
+  
+  ![](https://github.com/Rafaelsoz/Introdu-o_Sistemas_Computacionais/blob/main/game_corrida_tartarugas/game_.gif)
+  
+ # Como jogar
+ ## Controles: 
+ - 'x' para se dar início
+ - 'q' para sair do jogo
+ - 'a' player 1
+ - 'l' player 2
