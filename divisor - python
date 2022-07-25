@@ -1,0 +1,34 @@
+print("Insert the number you want to divise: ")
+n = int(input())
+
+print("Insert the diviser: ")
+diviser = int(input())
+
+
+
+x = 0
+
+if (n > 0 and diviser > 0):
+  while n >= diviser:
+          n -= diviser
+          x += 1
+
+
+if (n < 0 and diviser < 0):
+  while n <= diviser:
+    n -= diviser
+    x += 1
+
+
+if (n > 0 and diviser < 0):
+  while n >= -diviser:
+          n += diviser
+          x -= 1
+
+
+if (n < 0 and diviser > 0):
+  while n <= -diviser:
+          n += diviser
+          x -= 1
+
+print("result: {x}  rest: {dividendo}")
