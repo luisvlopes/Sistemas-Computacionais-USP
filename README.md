@@ -17,3 +17,5 @@ https://github.com/luisvlopes/sistemas_computacionais/blob/0fbeb8c64ae442e4d902b
 [MUX smartphone 64 bits](https://github.com/luisvlopes/sistemas_computacionais/blob/main/MUX%20smartphone%2064%20bits.jpg)
 
 [Máquina de estados](https://github.com/luisvlopes/sistemas_computacionais/blob/main/maquina%20de%20estados)
+
+[Tabela verdade da máquina](https://github.com/luisvlopes/sistemas_computacionais/blob/main/Tabela%20verdade%20-%20m%C3%A1quina%20de%20estados.jpg)
