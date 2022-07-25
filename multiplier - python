@@ -7,4 +7,4 @@ result = 0
 for i in range (0, b):
   result = result + a
 
-print("result: {result}")
+print(f"result: {result}")
