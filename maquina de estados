@@ -1,0 +1,70 @@
+##alarme de carro em C
+
+#include <stdio.h>
+
+int main() {
+
+    int botao, sensor, estado, reset, luz_vermelha = 1, buzina;
+
+
+    //reset
+
+    estado_0:
+    if (estado == 0) {
+        luz_vermelha = 0;
+        buzina = 0;
+    }
+    botao = 0;
+    printf("Apertar o botao?    (0/1)\n");
+    scanf("%d", &botao);
+    if (botao != 1)
+        goto estado_0;
+
+
+
+    printf("        -----   Alarme ativado   -----\n\n");
+
+    estado_1:
+    if (botao == 1) {
+        luz_vermelha = 1;
+        buzina = 0;
+        botao = 0;
+    }
+
+    printf("Apertar o botao?    (0/1)\n");
+    scanf("%d", &botao);
+    if (botao == 1) {
+        printf("        -----   Alarme desativado   -----\n\n");
+        goto estado_0;
+    }
+
+    printf("Ativar sensor?    (0/1)\n");
+    scanf("%d", &sensor);
+
+    if (sensor != 1) {
+        goto estado_1;
+    }
+
+
+
+    estado_2:
+    if (sensor == 1) {
+        luz_vermelha = 1;
+        buzina = 1;
+        sensor = 0;
+    }
+    printf("        -----   !!!Alarme disparado!!!   -----\n\n");
+
+    printf("Desativar alarme?   (0/1)\n");
+    scanf("%d", &botao);
+
+
+    if (botao == 1) printf("        -----   Alarme desativado   -----\n\n");
+
+    if (botao != 1) {
+        goto estado_2;
+    } else goto estado_0;
+
+
+    return 0;
+}
