@@ -1,7 +1,7 @@
 # sistemas_computacionais
 entregas prof. Simões
 
-[Jogo corrida de tartarugas](https://github.com/luisvlopes/sistemas_computacionais/blob/main/jogo%20corrida%20de%20tartarugas)
+[Jogo corrida de tartarugas](https://github.com/luisvlopes/sistemas_computacionais/tree/main/jogo%20tartaruga)
 
 [MUX smartphone 64 bits](https://github.com/luisvlopes/sistemas_computacionais/blob/main/MUX%20smartphone%2064%20bits.jpg)
 
