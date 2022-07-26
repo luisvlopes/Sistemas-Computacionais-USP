@@ -3,7 +3,7 @@
 - A implementação do grupo, se tratou de um jogo multiplayer, baseado em quem alcança o mar primeiramente.
 
 ## Vídeo de como funciona o jogo e seu algoritmo 
-- [Vídeo](https://github.com/Rafaelsoz/Introducao_Sistemas_Computacionais/blob/main/game_corrida_tartarugas/video_.mp4)
+- [Vídeo](https://github.com/luisvlopes/sistemas_computacionais/blob/main/jogo%20tartaruga/video_.mp4)
 
 # Como Jogar
   Para a execução do jogo se faz necessário em uma FPGA ou por meio de um Simulador do Processador.
@@ -17,20 +17,20 @@
  
 # Como executar o jogo
   Para dar início ao jogo, será necessário primeiro realizar downloads dos arquivos
-  - [game.mif](https://github.com/Rafaelsoz/Introdu-o_Sistemas_Computacionais/blob/main/game_corrida_tartarugas/game.mif)
-  - [charmap](https://github.com/Rafaelsoz/Introdu-o_Sistemas_Computacionais/blob/main/game_corrida_tartarugas/charmap.mif)
- 
+  - [game.mif](https://github.com/luisvlopes/sistemas_computacionais/blob/main/jogo%20tartaruga/game.mif)
+  - [charmap](https://github.com/luisvlopes/sistemas_computacionais/blob/main/jogo%20tartaruga/charmap.mif)
+  
   Como dito antes, vamos ultilizar a versão feita no [navegador](https://github.com/simoesusp/Processador-ICMC/tree/master/Install_Packages)
   - Na primeira opção é necessário colocar o arquivo game.mif
   - Na segunda se faz preciso usar o charmap
 
-  ![](https://github.com/Rafaelsoz/Introdu-o_Sistemas_Computacionais/blob/main/game_corrida_tartarugas/image.jpeg)
+  ![](https://github.com/luisvlopes/sistemas_computacionais/blob/main/jogo%20tartaruga/image.jpeg)
 
 
   ## Agora basta clicar em "Automatico" para que de start no simulador
   
   
-  ![](https://github.com/Rafaelsoz/Introdu-o_Sistemas_Computacionais/blob/main/game_corrida_tartarugas/game_.gif)
+  ![](https://github.com/luisvlopes/sistemas_computacionais/blob/main/jogo%20tartaruga/game_.gif)
   
  # Como jogar
  ## Controles: 
