@@ -1,4 +1,4 @@
-# sistemas_computacionais
+# Sistemas_Computacionais
 entregas prof. Simões
 
 [Jogo corrida de tartarugas](https://github.com/luisvlopes/sistemas_computacionais/tree/main/jogo%20tartaruga)
